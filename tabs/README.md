@@ -22,6 +22,8 @@
 ### reactjs
 - passing callback methods and calling them inside child
 > onClick={props.tabClick}
+- access the id of the button clicked in call back method
+> setActiveTab(e.target.id);
 - deciding element class dynamically
 > let cls = (props.id===props.activeTab?'clicked':'');
 > className={cls}
@@ -31,6 +33,7 @@
 - useState hook
 > const [activeTab, setActiveTab] = useState();
 - any code inside return without html or react element will be printed as such
+
 
 ### js
 - destructuring array, used in useState 
