@@ -1,0 +1,15 @@
+.tab-header button {
+    background: inherit;
+    border: none; 
+    padding: 14px 16px;
+}
+
+
+
+button:hover {
+    background-color: #ddd;
+}
+
+button.clicked {
+    background-color:  #ddd;
+}
